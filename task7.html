@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>常见的技术产品官网的页面架构及样式布局</title>
+	<link rel="stylesheet" type="text/css" href="css/task7.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+<body>
+<div class="main-wrapper">
+  <header><!--页头-->
+    <nav id="top">
+      <div class="logo"><i class="icon-book"></i><a href="#">新世界</a></div>
+      <ul>
+        <li><a href="#" class="active">首页</a></li>
+        <li><a href="#" class="list">最新活动</a></li>
+        <li><a href="#" class="list">项目介绍</a></li>
+        <li><a href="#" class="list">爱心社区</a></li>
+        <li><a href="#" class="list">关于我们</a></li>
+        <li><i class="icon-user"></i><a href="#" class="login">登录</a></li>
+      </ul>
+    </nav>
+    <div id="banner">
+      <div class="inner">
+        <h2 class="inner_title">Time of new life</h2>
+        <p>新时代，年轻的人们让我们一起</p>
+        <p>体验新生活，享受新生活</p>
+        <div class="let_go">开始体验</div>
+      </div>
+    </div>
+  </header>
+  <div class="content"><!--内容 -->
+    <section class="green-section">
+      <div class="wrapper">
+        <div class="icon1">
+        	<i class="icon-circle-blank icon-3x"></i>
+        	<p>打造全新世界观，让你更<br>爱你的生活</p>
+        </div>
+        <div class="icon2">
+        	<i class="icon-flag icon-3x"></i>
+        	<p>丰富多彩的公益活动，发<br>挥新世界的主人公意识</p>
+        </div>
+        <div class="icon3">
+        	<i class="icon-asterisk icon-3x"></i>
+        	<p>时尚的新理念，超前体验<br>未知的生活</p>
+        </div>
+        <div class="icon4">
+        	<i class="icon-th-large icon-3x"></i>
+        	<p>完善的培养机制，培养你<br>全新的世界观</p>
+        </div>
+      </div>
+    </section>
+    <section class="gray-section">
+      <div class="article-preview1">
+        <i class="icon-book icon-4x"></i>
+        <h1>关于新世界，你不知道的还有什么？</h1>
+      </div>
+      <div class="article-preview2">
+        <div class="article2">
+	        <h3>查找新世界城市活动信息</h3>
+	          <hr class="cut_line">
+	          <p>每个城市都有不同的活动信息，请自主查询你所需要了解的城市</p>
+        </div>
+        <form>
+          <select name="country" class="select1">
+          	<option>中国</option>
+          	<option>美国</option>
+          	<option>英国</option>
+          </select>
+          <input type="text" name="country" id="country" value="国家">
+          <select name="province" class="select2">
+          	<option>北京市</option>
+          	<option>天津市</option>
+          	<option>重庆市</option>
+          	<option>广东省</option>
+          	<option>山东省</option>
+          </select>
+          <input type="text" name="country" id="province" value="省份">
+          <select name="city" class="select3">
+          	<option>深圳</option>
+          	<option>广州</option>
+          	<option>南宁</option>
+          </select>
+          <input type="text" name="country" id="city" value="城市">
+          <input type="submit" name="search" id="sub" value="搜索">
+        </form>
+      </div>
+      <div class="article-preview3">
+          <div class="img1-wrapper">
+	          <div class="inner_wrap1">
+	            <img src="img/task7-5.png">
+	            <div class="info1">
+		            <h3>北京活动</h3>
+		            <p>新社区大联盟</p>
+	            </div>
+	          </div>
+          </div>
+          <div class="img1-wrapper">
+           <div class="info2">
+	            <h3>上海活动</h3>
+	            <p>夜上海新景观探索</p>
+            </div>
+	        <div class="inner_wrap2">
+	            <img src="img/task7-6.png">
+	        </div>
+          </div>
+           <div class="img1-wrapper">
+	        <div class="inner_wrap3">
+	            <img src="img/task7-7.png">
+	            <div class="info3">
+		            <h3>深圳活动</h3>
+		            <p>全新海岸线观点站</p>
+	            </div>
+	        </div>
+          </div>
+          <div class="img1-wrapper">
+	        <div class="inner_wrap4">
+	            <img src="img/task7-8.png">
+	            <div class="info4">
+		            <h3>香港活动</h3>
+		            <p>奢侈消费大派送</p>
+	            </div>
+	        </div>
+          </div>
+      </div>
+      <div class="article-preview4">
+      	<div class="inner_part1_left">
+      	  <div class="inner_content">
+        	<h2>新世界</h2>
+        	<h1>TIME</h1>
+        	<p>@新世界-北京</p>
+        	<time>2016.04.01</time>
+          </div>
+        </div>
+      	<div class="inner_part1_right">
+      		<h1>新世界/<span class="num">01</span></h1>
+      		<p>新世界是个新世界新世界是个新世界新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界</p>
+      		<div class="more"><a href="#">更多详情</a></div>
+      	</div>
+      </div>
+      <div class="article-preview5">
+        <div class="part1">
+	      	<h1>新时代</h1>
+	      	<p>关于爱生活的我们</p>
+	      	<hr class="cut_line">
+	      	<div class="look_more"><a href="#">查看更多</a></div>
+      	</div>
+      	<div class="part2">
+	      	<h1>新时代</h1>
+	      	<p>关于爱生活的我们</p>
+	      	<hr class="cut_line">
+	      	<div class="look_more"><a href="#">查看更多</a></div>
+      	</div>
+      	<div class="part3"></div>
+      </div>
+      <div class="article-preview6">
+	    <div class="inner_top">
+	      <h1>成为我们的志愿者</h1>
+	      <hr>
+		  <p>新世界的大家庭需要每一个热爱生活的人加入，如果你够年轻，有梦想，有激情<br>那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
+	    </div>
+      	<div class="inner_left">
+      	<dl>
+      		<dt>新世界志愿者协议</dt>
+      		<dd>加入新世界志愿者的人员必须遵守中华人民共和国的相关法律法规，并且本着平等自愿的原则.....</dd>
+      		<dd class="get_more"><i class="icon-angle-down"></i>more</dd>
+      	</dl>
+        <dl>
+      		<dt>新世界志愿者协议</dt>
+      		<dd>加入新世界志愿者的人员必须遵守中华人民共和国的相关法律法规，并且本着平等自愿的原则.....</dd>
+      		<dd class="get_more"><i class="icon-angle-down"></i>more</dd>
+      	</dl>
+      	<dl>
+      		<dt>更多条款</dt>
+      		<dd class="get_more"><i class="icon-angle-down"></i>more</dd>
+      	</dl>
+      	</div>
+      	<div class="inner_right">
+      		<form>
+      			<input type="text" name="name" value="姓名：" class="name">
+      			<input type="text" name="age" value="年龄：" class="age">
+      			<input type="text" name="phone" value="联系方式：" class="phone">
+      			<input type="text" name="address" value="联系地址：" class="address">
+      			<textarea class="describe">请简单描述您梦想的生活：</textarea>
+      			<input type="submit" name="put" value="提交申请" class="put">
+      		</form>
+      	</div>
+      </div>
+    </section>
+  </div>
+  <footer><!--页脚 -->
+    <div class="connect">
+     <h1>联系我们</h1>
+     <p>为了更好地获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯<br>也可以通过以下任何方式关注我们的动态</p>
+     <form>
+	     <input type="text" name="learn" value="someone@email.com" class="connect_input">
+	     <input type="submit" name="tijiao" value="提交" class="tijiao">
+     </form>
+     <ul class="share-group">
+       <li><i class="icon-github-alt icon-2x"></i></li>
+       <li><i class="icon-pinterest icon-2x"></i></li>
+       <li><i class="icon-twitter icon-2x"></i></li>
+       <li><i class="icon-facebook icon-2x"></i></li>
+     </ul>
+    </div>
+     <div class="copy"><!--版权部分 -->
+       <span class="sign">&copy 2016新世界</span>
+       <span class="back_to_top"><a href="#top">Back to top</a></span>
+     </div>
+  </footer>
+ </div>
+</body>
+</html>

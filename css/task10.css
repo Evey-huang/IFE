@@ -1,0 +1,53 @@
+*
+{
+	margin: 0;
+	padding:0;
+}
+
+.flex-box
+{
+	padding: 20px;
+	display: flex;
+	flex-flow: row wrap;/*是“flex-direction”和“flex-wrap”属性的缩写版本。同时定义了伸缩容器的主轴和侧轴*/
+	                    /*flex-direction:row;在“ltr”排版方式下从左向右排列；在“rtl”排版方式下从右向左排列。*/
+	                    /*flex-wrap:wrap;“ltr”排版下，伸缩项目从左到右排列；“rtl”排版上伸缩项目从右向左排列。*/
+	justify-content: space-between;/*第一个元素紧贴浏览器左边，最后一个元素紧贴浏览器右边*/
+	align-items: center;
+}
+
+.flex-box li
+{
+	list-style: none;
+	width: 150px;
+	margin-top: 20px;
+}
+
+.box1
+{
+	border:1px solid #f00;
+	height: 120px;
+}
+
+.box2
+{
+	border:1px solid #f00;
+	height: 100px;
+}
+
+.box3
+{
+	border:1px solid #f00;
+	height: 40px;
+}
+
+.box4
+{
+	border:1px solid #0f0;
+	height: 200px;
+}
+
+@media (max-width:640px) 
+{
+    .flex-container{align-items: flex-start;}
+    .box4{order: -1;}
+}

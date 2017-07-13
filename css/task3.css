@@ -1,0 +1,95 @@
+/*global*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper,.container,.main_info,.logo_group
+{
+    border: 1px solid #999;
+    background: #fff;
+}
+
+.main_info,.team_group img,.item-group li
+{
+	padding: 20px;
+}
+
+.logo
+{
+	width: 80px;
+	height: 80px;
+}
+/*wrapper*/
+.wrapper
+{
+	overflow: hidden;/*使父容器的长度自适应最长的子元素*/
+	min-height:460px;/*值由两边栏中较长的一方决定其高度，当中间栏高于两边时父容器的高度会适应中间的高度*/
+	position: relative;
+	background: #eee;
+	margin: 20px;	
+}
+
+/*team_group*/
+.team_group
+{
+	width: 200px;
+	float: left;
+	position: absolute;
+	left:20px;
+	top:20px;
+}
+
+dl
+{
+	position: absolute;
+	top:20px;
+	left:120px;
+	
+}
+
+.team_name
+{
+	font-size: 24px;
+	padding-top: 10px;
+}
+/*logo_group*/
+
+.logo_group
+{
+	width:120px;
+	height: 500px;
+	float:right;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+.item-group
+{
+	list-style:none;
+}
+
+/*info*/
+.info
+{
+	height: 600px;
+	margin: 0 160px 0 240px;	
+}
+
+.main_info
+{
+	margin-top: 20px;
+}
+
+.main_info p
+{
+	text-indent: 2em;
+	line-height: 25px;
+	padding: 10px 0px 10px 0px;
+}
+
+
+

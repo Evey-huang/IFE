@@ -1,0 +1,302 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;/*为元素指定的任何内边距和边框都将在已设定的宽度和高度内进行绘制。*/
+}
+
+body
+{
+	background-color: #000;
+	font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+
+ul
+{
+    display: flex;
+}
+
+li
+{
+	list-style: none;
+	flex: 1;
+}
+
+a
+{
+	text-decoration: none;
+}
+.wrapper
+{
+	width:1000px;
+	margin:0 auto;
+	background-color: #eee;
+}
+
+/*>>>>>>>header>>>>>>>*/
+header
+{
+	color: #fff;
+	height: 90px;
+	width: 100%;
+	background-color:#A4D3EE;
+	position: relative;
+	line-height: 90px;
+}
+
+header h1
+{
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 7px;
+}
+
+header .btn-back
+{
+	position: absolute;
+	left:30px;
+	top:0px;
+	color: #fff;
+	font-size: 30px;
+}
+
+header .back-arrow
+{
+    width: 18px;
+    height: 18px;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+    transform: rotate(45deg);
+}
+
+/*>>>>>>section part1>>>>>>>>*/
+.part1
+{
+	background-color: #fff;
+}
+
+.part1 nav
+{
+	width: 100%;
+	height: 100px;
+	font-size: 40px;
+	color: #8B8B83;
+	margin-bottom: 5px;
+}
+
+.part1 nav li
+{
+	display: inline-block;
+	padding:0 50px 0 60px;
+	line-height: 100px;
+	flex-grow: 1;
+	border-bottom: 5px solid #fff;
+}
+
+.part1 .active
+{
+	border-bottom: 5px solid #A4D3EE;
+}
+
+.illustration img
+{
+	width: 100%;
+	height: 500px;
+}
+
+.part1-tab
+{
+	display: flex;
+	padding:25px;
+	 
+}
+
+.part1-tab ul
+{
+	border-bottom: 3px solid #ccc;
+
+}
+
+.part1-tab li
+{
+	/*flex: 1;*/
+	display: inline-block;
+	padding:0 60px 0 40px;
+	margin-bottom: 40px;
+}
+
+.part1-tab li a
+{
+	display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    color: #000;
+    margin: auto;
+}
+
+.part1-tab .part1-item
+{
+	background: url(../img/task11_2.png) center no-repeat;
+	width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    background-size: 100%;
+    margin:20px 0 20px 0;
+}
+
+.part1-tab span
+{
+	font-size: 30px;
+}
+
+.part1-column
+{
+	margin-bottom: 40px;
+}
+.part1-column ul
+{
+	margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    align-items: baseline;
+}
+
+.part1-column ul li
+{
+	text-align: center;
+}
+
+.part1-column .col-li
+{
+	border-right: 3px solid #ccc;
+}
+
+.part1-column ul li h2
+{
+	color: #666;
+}
+
+/*>>>>>>>>section part2>>>>>>>>*/
+.part2
+{
+	background-color: #fff;
+	margin-bottom: 40px;
+}
+
+.part2-wrap
+{
+	padding-top: 20px;
+}
+
+.part2 h2
+{
+	margin:0 0 30px 30px;
+	font-size: 40px;
+	color: #666;
+}
+
+.part2-pic img
+{
+	width: 240px;
+    border: 1px solid #eb9316;
+}
+
+.part2-div
+{
+	border-top: 3px solid #ccc;
+	padding-top: 30px;
+	margin:0 30px 0 30px;
+}
+
+.part2-div ul
+{
+	flex-direction: column;
+}
+
+
+.part2-box
+{
+	flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-left: 250px;
+    margin-top: -230px;
+}
+
+.part2-box .item
+{
+	width: 45%;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    margin:0 0 20px 20px;
+    background-color: #eee;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 30px;
+}
+
+/*>>>>>>>>>section part3>>>>>>>>*/
+.part3
+{
+	background-color: #fff;
+	padding-bottom: 100px;
+}
+
+.part3-pic
+{
+	margin-left: 30px;
+}
+.part3-li1
+{
+    position: relative;
+    border-bottom: 3px solid #ccc;
+    padding:20px 0 20px 0;
+
+}
+
+.part3-box
+{
+	position: absolute;
+	top:15px;
+	left:340px;
+}
+
+.part3 h2
+{
+	font-size: 36px;
+	color: #666;
+	
+}
+
+.part3-li1 h2
+{
+	padding-bottom: 120px;
+}
+
+.part3 p
+{
+	font-size: 30px;
+	color: #ccc;
+}
+
+.part3-li2
+{
+	margin-left: 30px;
+}
+
+.part3-li2 h2
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.pic-group div
+{
+	display: inline-block;
+	padding-right: 15px;
+}

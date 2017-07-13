@@ -1,0 +1,160 @@
+body
+{
+	font-family: 'trebuchet MS', 'Lucida sans', Arial; 
+	background-color: #000;
+}
+
+.wrapper
+{
+	background-color: #fff;
+	width:400px;
+	margin: 0 auto;
+	min-height: 600px;
+}
+
+.part1
+{
+	margin-bottom: 100px;
+}
+
+table tr:nth-child(odd)/*实现表格隔行变色*/
+{
+	background:#999;
+}
+
+.top
+{
+	color:red;
+}
+
+.part1 table
+{
+	margin:0 auto;
+	border: 1px solid #fff;
+}
+
+.part1 th
+{
+	background-color: #333;
+	color:#fff;
+}
+
+.part2
+{
+	margin-bottom: 20px;
+}
+
+.input
+{
+	width: 100px;
+	margin-left:150px; 
+	transition: all 0.5s ease;/*变化速度逐渐变慢*/
+	border: 1px solid #ccc;
+}
+
+.input:hover
+{
+	border: 1px solid #2aabd2;
+    box-shadow: 0 0 4px #40D0E0;
+    width: 200px;
+}
+
+.part3
+{
+	position: relative;
+	width:300px;
+	height:100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.part3 input
+{
+	display: none;
+}
+
+.box-group
+{
+	width: 300%;
+    height: 100%;
+    position: absolute;
+    font-size: 0;
+    animation:slide 5s ease-out infinite;
+}
+
+.box
+{
+	width: 300px;
+    height: 100px;
+    float: left;
+}
+
+.box1
+{
+    background-color: green;
+}
+
+.box2
+{
+    background-color: #eb9316;
+}
+
+.box3
+{
+    background-color: blue;
+}
+
+/*>>>>>>>>>轮播>>>>>>>*/
+@keyframes slide 
+{
+    0% { margin-left:0;}
+    23% { margin-left:0;}
+    33% { margin-left:-300px;}
+    56% { margin-left:-300px;}
+    66% { margin-left:-600px;}
+    90% { margin-left:-600px;}
+    100% {margin-left:0;}
+}
+
+/*>>>>>定位>>>>>>*/
+#btn1:target ~ .box-group
+{
+    transition: left 1s;
+    animation:none;
+    left: 0;
+}
+
+#btn2:target ~ .box-group
+{
+    transition: left 1s;
+    animation:none;
+    left: -100%;
+}
+
+#btn3:target ~ .box-group
+{
+    transition: left 1s;
+    animation:none;
+    left: -200%;
+}
+
+.item-group
+{
+	position: absolute;
+	bottom: 0px;
+	right:0px;
+}
+
+.part3 a
+{
+	color: #fff;
+	background-color: rgba(255,255,255,0.5);
+	width:30px;
+	height:30px;
+	line-height: 30px;
+	display:inline-block;
+	text-align: center;
+	text-decoration: none;
+}
+
+
