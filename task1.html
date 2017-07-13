@@ -4,229 +4,44 @@
 	<meta charset="UTF-8">
 	<title>Task1</title>
 	<style type="text/css">
-	*{padding:0;margin:0;}
-	body{background: #eee;}
-    .wrapper{background: #404040;height:100px;}
-.logo
-{
-	margin-top: 20px;
-	margin-left: 40px;
-	float: left;
-}
+		*{padding:0;margin:0;}
+		body{background: #eee;}
+		.wrapper{background: #404040;height:100px;}
+		.logo{margin-top: 20px;margin-left: 40px;float: left;}
+		.logo img{width: 130px;height:50px;}
 
-.logo img
-{
-	width: 130px;
-	height:50px;	
-}
+		nav{float:right;}
+		.navbar ul{list-style:none;line-height: 100px;float: right;font-size: 14px;}
+		.navbar ul li{display:inline-block;margin-right:20px;}
+		.navbar ul li a{text-decoration:none;color: #fff;}
 
-/*nav*/
-nav
-{
-	
-	float:right;
-}
+		section{background: #fff;font-family:"Microsoft YaHei",微软雅黑;margin: 30px;-moz-box-shadow:2px 2px 2px #999;-webkit-box-shadow:2px 2px 2px #999;box-shadow:2px 2px 2px #999;line-height: 40px;}
+		.article{margin: 20px;}
+		.article p{text-indent: 2em;}
+		.article h2{padding-top: 30px;}
+		.article h3{font-size: 18px;color: #575757;}
+		span,time{font-size: 14px;color: #575757;}
+		.item{list-style:none;padding:0 0 50px 50px;}
+		.item-group{margin-left: 80px;padding-bottom: 40px;}
+		dl{width: 200px;height:200px;border: 1px solid #999;margin-top: 15px;padding:0px 20px 10px 20px;}
+		dl dt{text-align: center;}
+		dl dd img{width: 200px;height: 150px;}
+		ol{margin-left: 40px;font-size: 16px;font-weight: bold;}
+		table{border: none;padding-bottom: 20px;}
+		td{width: 450px;height: 15px;border-bottom:1px solid #999;border-left:1px solid #999;padding-left: 10px;}
+		.three{border-right:1px solid #999;}
+		.title{background: #404040;color: #fff;}
+		.count{background: #999;font-weight: bold;}
+		.sidebar{padding-top: 25px;padding-left: 30px;font-size: 14px;}
+		.sidebar h2{font-size: 16px;}
+		.personal{width: 350px;text-align: right;margin:20px 0px 0px 200px;}
+		.E-mail,.password{float: right;height: 22px;margin-left: 10px;}
+		.sex,.city,.interest,.textarea{display: inline-block;width: 158px;margin-left: 10px;text-align: left;}
+		.tip{color: #999;}
+		textarea{width: 700px;height: 150px;}
+		.submit{background: #436EEE;width: 900px;height: 40px;border-radius: 7px;margin-bottom: 30px;}
 
-.navbar ul
-{
-	list-style:none;
-	line-height: 100px;
-	float: right;
-	font-size: 14px;
-}
-
-.navbar ul li
-{
-
-   display:inline-block;/*使块级元素变成内联元素*/
-   margin-right:20px;
-  
-}
-
-.navbar ul li a
-{
-   text-decoration:none;/*取消下划线*/
-   color: #fff;
- }
-/* section*/
-section
-{
-	background: #fff;
-	font-family:"Microsoft YaHei",微软雅黑;
-	margin: 30px;
-	-moz-box-shadow:2px 2px 2px #999; /*X轴偏移量 Y轴偏移量 阴影模糊半径 阴影扩展半径 阴影颜色*/
-    -webkit-box-shadow:2px 2px 2px #999;
-    box-shadow:2px 2px 2px #999;
-    line-height: 40px;
-}
-
-.article
-{
-	margin: 20px;
-
-}
-
-.article p
-{
-	text-indent: 2em;/*首行缩进2字符*/
-}
-
-.article h2
-{
-	padding-top: 30px;
-}
-
-.article h3
-{
-	font-size: 18px;
-	color: #575757;
-}
-
-span,time
-{
-	font-size: 14px;
-	color: #575757;
-}
-
-.item
-{
-	list-style:none;
-	padding:0 0 50px 50px;/*上右下左内边距*/
-}
-
-.item-group
-{
-	margin-left: 80px;
-	padding-bottom: 40px;
-}
-
-dl
-{
-	width: 200px;
-	height:200px;
-	border: 1px solid #999;
-	margin-top: 15px;
-	padding:0px 20px 10px 20px;
-}
-
-dl dt
-{
-	text-align: center;
-}
-
-dl dd img
-{
-	width: 200px;
-	height: 150px;
-}
-
-ol
-{
-	margin-left: 40px;
-	font-size: 16px;
-	font-weight: bold;
-}
-
-table
-{
-	border: none;
-	padding-bottom: 20px;
-}
-
-td
-{
-	width: 450px;
-	height: 15px;
-	border-bottom:1px solid #999;
-	border-left:1px solid #999;
-	padding-left: 10px;
-}
-
-.three
-{
-	border-right:1px solid #999;
-}
-
-.title
-{
-	background: #404040;
-	color: #fff;
-}
-
-.count
-{
-	background: #999;
-	font-weight: bold;
-}
-
-.sidebar
-{
-	padding-top: 25px;
-	padding-left: 30px;
-	font-size: 14px;
-}
-
-.sidebar h2
-{
-	font-size: 16px;
-}
-
-
-.personal
-{
-	width: 350px;
-	text-align: right;
-	margin:20px 0px 0px 200px;
-}
-
-.E-mail,.password
-{
-	float: right; 
-	height: 22px;
-	margin-left: 10px;
-}
-
-.sex,
-.city,
-.interest,
-.textarea{
-	display: inline-block;
-	width: 158px;
-	margin-left: 10px;
-	text-align: left;
-}
-
-
-.tip
-{
-	color: #999;
-}
-
-textarea
-{
-	width: 700px;
-	height: 150px;
-}
-
-.submit
-{
-	background: #436EEE;
-	width: 900px;
-	height: 40px;
-	border-radius: 7px;	
-	margin-bottom: 30px;
-}
-/*footer*/
-footer
-{
-	background: #1E1E1E;
-	height:60px;
-	line-height:60px;
-	color: #fff;
-	text-align: center;
-}
-
-
+        footer{	background: #1E1E1E;height:60px;line-height:60px;color: #fff;text-align: center;}
 	</style>
 </head>
 <body>
@@ -252,7 +67,7 @@ footer
 		<p>
 			这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了<br>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落,这里有一个链接<a href="http://life.baidu.com">http://life.baidu.com</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这里有个<strong>粗体字</strong>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落.
 		</p>
-		<div><img src="img/task2.jpg"></div>
+		<div><img src="img/p.jpg"></div>
 		<p>
 		   这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了<br>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落,这里有一个链接<a href="http://life.baidu.com">http://life.baidu.com</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这里有个<strong>粗体字</strong>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落.
 		</p>
@@ -267,7 +82,7 @@ footer
 		<time>文章发表时间</time>
 		<p>
 			这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了<br>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落,这里有一个链接<a href="http://life.baidu.com">http://life.baidu.com</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这里有个<strong>粗体字</strong>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落.
-			<img src="img/task2.jpg">
+			<img src="img/p.jpg">
 			<ul class="item">
 				<li>列表项目一</li>
 				<li>列表项目二</li>
@@ -283,15 +98,15 @@ footer
 		<div class="item-group">
 			<dl>
 				<dt>好看的图片</dt>
-				<dd><img src="img/task2.jpg"></dd>
+				<dd><img src="img/p.jpg"></dd>
 			</dl>
 			<dl>
 				<dt>好看的图片</dt>
-				<dd><img src="img/task2.jpg"></dd>
+				<dd><img src="img/p.jpg"></dd>
 			</dl>
 			<dl>
 				<dt>好看的图片</dt>
-				<dd><img src="img/task2.jpg"></dd>
+				<dd><img src="img/p.jpg"></dd>
 			</dl>
 		</div>
 	</div>
